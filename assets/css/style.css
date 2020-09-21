@@ -1,0 +1,41 @@
+#searchInp {
+  margin: 40px;
+}
+
+.wrapperDiv {
+  position: relative;
+}
+
+.droppedDiv {
+  position: absolute;
+  display: none;
+  max-height: 250px;
+  border: 1px solid #888;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+.droppedDiv span {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.droppedDiv span:hover {
+  background: #ddd;
+}
+
+.droppedDiv::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.droppedDiv::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+.droppedDiv::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+/*# sourceMappingURL=style.css.map */
